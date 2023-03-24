@@ -17,12 +17,12 @@ def read(path: str) -> List[Dict]:
 
 def get_unique_job_types(path: str) -> List[str]:
     jobs = read(path)
-    jobs_type = set()
+    unique_jobs_type = set()
 
     for job in jobs:
-        jobs_type.add(job["job_type"])
+        unique_jobs_type.add(job["job_type"])
 
-    return jobs_type
+    return unique_jobs_type
 
 
 def filter_by_job_type(jobs: List[Dict], job_type: str) -> List[Dict]:
