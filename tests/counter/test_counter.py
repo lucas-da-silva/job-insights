@@ -7,13 +7,7 @@ COUNT_WORD = [2, 3]
 
 
 def test_counter():
-    jobs = """Python, 
-    Java, 
-    JavaScript, 
-    HTML, CSS, 
-    React, Redux, Python, 
-    JavaScript, Python
-    """
+    jobs = "Python JavaScript HTML, CSS React, Python JavaScript, Python"
 
     with patch("builtins.open", mock_open(read_data=jobs)):
         for index, word in enumerate(WORDS):
