@@ -38,7 +38,7 @@ def index():
     <img src="/.images/job.png" alt="Logo da Aplicação" width="800"/>
 </p>
 <h2 align="center">
-    Boas-vindas ao Job Insights<br><br>
+    Welcome to Job Insights<br><br>
 </h2>
         """
     return render_template("index.jinja2", md=md)
