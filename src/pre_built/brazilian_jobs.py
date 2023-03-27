@@ -18,6 +18,7 @@ def read_brazilian_file(path: str) -> List[Dict]:
         List of rows as dicts
     """
     dict_jobs = jobs.read(path)
+    print("PRINT", dict_jobs)
     for job in dict_jobs:
         job["title"] = job.pop("titulo")
         job["salary"] = job.pop("salario")
