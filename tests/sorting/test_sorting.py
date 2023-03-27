@@ -1,10 +1,57 @@
 from src.pre_built.sorting import sort_by
-from tests.mocks.jobs_sorting import (
-    jobs,
-    jobs_sorted_date_posted,
-    jobs_sorted_max_salary,
-    jobs_sorted_min_salary,
-)
+
+
+jobs = [
+    {
+        "min_salary": 4000,
+        "max_salary": 8000,
+        "date_posted": "2020-04-25",
+    },
+    {
+        "min_salary": 1000,
+        "max_salary": 3000,
+        "date_posted": "2019-03-10",
+    },
+]
+
+jobs_sorted_min_salary = [
+    {
+        "min_salary": 1000,
+        "max_salary": 3000,
+        "date_posted": "2019-03-10",
+    },
+    {
+        "min_salary": 4000,
+        "max_salary": 8000,
+        "date_posted": "2020-04-25",
+    },
+]
+
+jobs_sorted_max_salary = [
+    {
+        "min_salary": 4000,
+        "max_salary": 8000,
+        "date_posted": "2020-04-25",
+    },
+    {
+        "min_salary": 1000,
+        "max_salary": 3000,
+        "date_posted": "2019-03-10",
+    },
+]
+
+jobs_sorted_date_posted = [
+    {
+        "min_salary": 4000,
+        "max_salary": 8000,
+        "date_posted": "2020-04-25",
+    },
+    {
+        "min_salary": 1000,
+        "max_salary": 3000,
+        "date_posted": "2019-03-10",
+    },
+]
 
 
 def test_sort_by_criteria():
