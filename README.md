@@ -18,7 +18,7 @@ Note: The Flask framework and all Jinja2 code was developed by [Trybe](https://g
 
 ## Stack
 
-- [Python](https://www.python.org/) - Linguagem de programação focada em desenvolvimento rápido e integração de sistemas eficazmente
+- [Python](https://www.python.org/) - Programming language focused on rapid development and efficient systems integration
 - [Pytest](https://docs.pytest.org/en/7.2.x/) - Framework makes it easy to write small, readable tests
 - [Flask](https://flask.palletsprojects.com/en/2.2.x/) - Micro framework for building web applications
 - [Jinja2](https://jinja.palletsprojects.com/en/3.1.x/) - Extensible templating engine
